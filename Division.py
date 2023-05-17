@@ -1,4 +1,4 @@
-a=int(input())
-b=int(input())
+a=float(input())
+b=float(input())
 c=a//b
-print(c)
+print(format(c,'.0f'))
