@@ -1,3 +1,4 @@
 r=int(input())
-a=3.14*r*r
-print(format(a,'0.2f'))
+area=3.14*r*r
+a="{:.2f}".format(area)
+print(a)
